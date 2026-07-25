@@ -1,0 +1,10 @@
+{
+  "name": "luckygua-official-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "深圳幸运呱科技有限公司官网",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist/assets && cp index.html styles.css main.js dist/ && cp -R assets/. dist/assets/",
+    "deploy": "npm run build && tcb hosting deploy ./dist --env-id rosa-env-d7grf78r5dbd37323 --yes"
+  }
+}
