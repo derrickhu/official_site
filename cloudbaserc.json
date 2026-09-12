@@ -1,5 +1,10 @@
 {
   "envId": "rosa-env-d7grf78r5dbd37323",
   "version": "2.0",
-  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json"
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "site": {
+    "canonicalOrigin": "https://www.luckygua.cn",
+    "privacyHuahua": "https://www.luckygua.cn/privacy/huahua.html",
+    "hostingFallback": "https://rosa-env-d7grf78r5dbd37323-1414200063.tcloudbaseapp.com"
+  }
 }
